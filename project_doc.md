@@ -228,4 +228,4 @@ def recur_fibonacci(n):
 
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
 
-[Replit - Menus](https://replit.com/@JakubPonulak/TT0-Menus#main.py)
+[Replit - Menus](https://replit.com/@somaditya1/TT0-Menus-2#main.py)
