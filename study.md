@@ -33,7 +33,6 @@ People empower themselves in the digital world through the use of technology, in
 - Crowdsourcing is the practice of obtaining input or information from a large number of people via the internet
 - Human capabilities can be enhanced by collaboration via computing
 - Crowdsourcing offers new models for collaboration, such as connecting businesses or social causes with funding
-![image](https://user-images.githubusercontent.com/72752116/158456964-7ba254f6-64f7-4b20-9ba8-2f54ef5af87e.png)
 
 
 
