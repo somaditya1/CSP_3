@@ -219,6 +219,172 @@ def recur_fibonacci(n):
      return(recur_fibonacci(n-2) + recur_fibonacci(n-1))
   
 ```
+### Code
+
+
+
+``` python
+main_menu = [
+]
+
+# Submenu list of [Prompt, Action]
+# Works similarly to main_menu
+
+math_sub_menu = [
+    ["Swap", swap.test_swapNum],
+    ["Fibonacci", fibonacci.fibonacci_tester],
+    ["Factorials", factorial.recur_tester],
+    ["IMP GCD", impgcd.gcd]
+]
+
+data_sub_menu = [
+    ["Lists", listsandloops.tester],
+]
+
+visual_sub_menu = [
+    ["Keypad", keypad.format_tester],
+    ["Tree", tree.treefunc],
+    ["Pattern", pattern.patternfunc]
+]
+
+oop_sub_menu = [
+    ["OOP Palindrome", ooppalindrome.pali_tester],
+    ["OOP Fibonacci", oopfib.fib_tester],
+    ["OOP Factorial", oopfact.fact_tester],
+    ["OOP GCD", oopgcd.gcd_tester]
+]
+```
+
+#### Factorial Function with Classes
+
+``` python
+class Factorial:
+  def __init__(self):
+        self.factSeq = [1, 1]
+  # Factorial of a number using recursion
+  def __call__(self, n):
+      if n == 1 or n == 0:
+          return self.factSeq[n]
+      else:
+        fact_num = n * self(n-1)
+        self.factSeq.append(fact_num)
+      return self.factSeq[n]
+  
+
+def fact_tester():
+  fact_of = Factorial()
+  print(" 10 factorial is", fact_of(10))
+  ```
+  
+#### Greatest Common Denominator 
+
+``` python 
+# Function to find the GCD of two Numbers
+def findgcd(num1, num2):
+    if num1 == 0:
+        return num1
+    while num2 != 0:
+        if num1 > num2:
+            num1 = num1 - num2
+        else:
+            num2 = num2 - num1
+    return num1
+
+
+def gcd():
+    a = int(input(" Enter the First Value for GCD: "))
+    b = int(input(" Enter the Second Value for GCD: "))
+    gcd = findgcd(a, b)
+    print("\n GCD of {0} and {1} is: {2}".format(a, b, gcd))
+    print()
+```
+``` python
+class GCD:
+  def __init__(self):
+        self.gcdSeq = []
+  # Factorial of a number using recursion
+  def __call__(self, a, b):
+      if a == 0:
+          return a
+      while b != 0:
+        if a > b:
+          a = a - b
+        else:
+            b = b - a
+      return a # self.gcdSeq[a]
+
+  
+
+def gcd_tester():
+  a = 342
+  b = 114
+  gcd_of = GCD()
+  print("GCD of", a, "and", b, "is", gcd_of(a, b))
+```
+
+#### Palindrome OOP 
+
+``` python
+# import re
+
+
+# class Palindrome:
+#     # palindrome initializer method
+#     def __init__(self, candidate):
+#         # input values
+#         self._candidate = candidate  # input string
+#         self._length = len(candidate)  # input length
+#         # analysis values
+#         self._is_a_palindrome = False  # initialize status
+#         self._az09 = re.sub(r'[^a-zA-Z0-9]', '', self._candidate)  # alpha numeric characters
+#         self._analysis = []  # array of tests
+#         self._tests = 0  # counter of tests performed
+#         # evaluate for palindrome
+#         self.is_palindrome()
+
+#     # palindrome tester method
+#     def is_palindrome(self):
+#         c = self._az09
+#         # Run loop from 0 to len/2 of string (middle is exit point)
+#         tests = int(len(c) / 2)
+#         for i in range(0, tests):
+#             front = c[i];
+#             back = c[len(c) - i - 1]
+#             if front.lower() == back.lower():
+#                 self.logger(front, back, True)
+#                 self._tests += 1
+#             else:
+#                 self.logger(front, back, False)
+#                 return
+#         self._is_a_palindrome = True
+#         return
+
+#     # palindrome logging
+#     def logger(self, front, back, result):
+#         self._analysis.append({"test": self._tests, "front": front, "back": back, "result": result})
+
+#     # getters follow
+#     @property
+#     def candidate(self):
+#         return self._candidate
+
+#     @property
+#     def tests(self):
+#         return self._tests
+
+#     @property
+#     def isPalindrome(self):
+#         return self._is_a_palindrome
+
+#     @property
+#     def analysis(self):
+#         return self._analysis
+
+def pali_tester():
+  # pali = Palindrome()
+  # pali("uhefgsrbkjehiebihqet")
+  print('\u001b[31;1mNot Currently Working\u001b[37;1m')
+  ```
                    
 ## Code / Runtime Links
 
