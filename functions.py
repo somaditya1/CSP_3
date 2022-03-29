@@ -2,7 +2,9 @@ ANSI_CLEAR_SCREEN = u"\u001B[2J"
 ANSI_HOME_CURSOR = u"\u001B[2;0H\u001B[2"
 SMILE_COLOR = u"\u001B[31m\u001B[2D"
 RESET_COLOR = u"\u001B[0m\u001B[2D"
+
 from tt1 import loops
+from tt2 import classes
 import time
 
 def smile_print(position):
@@ -53,6 +55,21 @@ def lessNumSwap():
   else:
     print(age2, age1)
 
+def build_tree(height):
+  i = 1
+  while i <= height:
+    print(" " * (height - i) + "X " * i)
+    i = i + 1
+  print(" " * (height - 3) + "|   |\n" + " " * (height - 3) + "L...⅃")
+    
+
+def treefunc():
+  height = int(input("Enter height: "))
+  build_tree(height)
+
+
+
+    
 # menuy.py - function style menu
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
@@ -62,10 +79,6 @@ def lessNumSwap():
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Animation", smile],
-    ["Diamond", diamond],
-    ["List Printer", loops.tester],
-    ["Fibonacci", loops.fibonacci]
 ]
 
 # Submenu list of [Prompt, Action]
@@ -75,9 +88,27 @@ sub_menu = [
     ["Smaller # 1st", lessNumSwap],
 ]
 
+sub_menu0 = [
+    ["Animation", smile],
+    ["Diamond", diamond],
+]
+
+sub_menu1 = [
+    ["List Printer", loops.tester],
+    ["Fibonacci", loops.fibonacci],
+]
+
+sub_menu2 = [
+  ["Factorial", classes.factorial_print],
+  ["Sequential Sum (OOP)", classes.consec_print],
+  ["Sequential Sum (Imperative)", classes.seq_sum],
+  ["Palindrome Tester", classes.pali_tester],
+]
+
 # Menu banner is typically defined by menu owner
-border = "=" * 25
-banner = f"\n{border}\nPlease Select An Option\n{border}"
+border1 = "«" * 25
+border2 = "»" * 25 
+banner = f"\n{border1}\nSelect An Option\n{border2}"
 
 
 
@@ -93,6 +124,9 @@ def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Swap Menu", submenu])
+    menu_list.append(["Animations (TT0)", submenu0])
+    menu_list.append(["Lists & Fibonacci (TT1)", submenu1])
+    menu_list.append(["Math (TT2)", submenu2])
     buildMenu(title, menu_list)
 
 # def submenu
@@ -101,6 +135,18 @@ def menu():
 def submenu():
     title = "Swap Submenu" + banner
     buildMenu(title, sub_menu)
+
+def submenu0():
+    title = "TT0 Submenu" + banner
+    buildMenu(title, sub_menu0)
+
+def submenu1():
+    title = "TT1 Submenu" + banner
+    buildMenu(title, sub_menu1)
+
+def submenu2():
+    title = "TT2 Submenu" + banner
+    buildMenu(title, sub_menu2)
 
 def buildMenu(banner, options):
     # header for menu
@@ -113,10 +159,10 @@ def buildMenu(banner, options):
 
     # print menu or dictionary
     for key, value in prompts.items():
-        print(key, '->', value[0])
+        print(key, '─', value[0])
 
     # get user choice
-    choice = input("Type your choice> ")
+    choice = input("Type your choice: ")
 
     # validate choice and run
     # execute selection

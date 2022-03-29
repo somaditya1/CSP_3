@@ -67,7 +67,7 @@ class Palindrome:
     else:
       print("This is not a palindrome...")
 
-def pali_print():
+def pali_tester():
   test_data1 = Palindrome(user_input='Racecar')
   test_data2 = Palindrome(user_input='A man, a plan, a canal - Panama?')
   test_data3 = Palindrome(user_input='Test text')
@@ -80,3 +80,4 @@ def pali_print():
   test_data3()
   print("Phrase 4: Slash slash slash")
   test_data4()
+

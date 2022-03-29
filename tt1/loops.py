@@ -93,12 +93,15 @@ def tester1():
 
 # Hack 3: Fibonacci.  Write a recursive program to create a fibonacci sequence including error handling for invalid input
 def fibonacci():
+  # creates a variable
   num = int(input("Enter the length of your Fibonacci sequence: "))
+  #Prompts user to answer
   if num < 0:
     print("You cannot use a negative number")
   else:
     for i in range(num):
       print(recur_fibonacci(i))
+      #Creates viable conditional
 
 def recur_fibonacci(n):
   if n <= 1:  
