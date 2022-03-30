@@ -1,6 +1,6 @@
 from tt0 import patterns, swap, tree
-from tt1 import loops
-from tt2 import classes, factorial
+from tt1 import loops, fibonacci, factorial
+from tt2 import palindrome, factorial, seq, consec
 
     
 # menuy.py - function style menu
@@ -24,18 +24,19 @@ sub_menu = [
 sub_menu0 = [
     ["Animation", patterns.smile],
     ["Diamond", patterns.diamond],
+    ["Tree", tree.treefunc],
 ]
 
 sub_menu1 = [
     ["List Printer", loops.tester],
-    ["Fibonacci", loops.fibonacci],
+    ["Fibonacci", fibonacci.fibonacci],
 ]
 
 sub_menu2 = [
-  ["Factorial", classes.factorial_print],
-  ["Sequential Sum (OOP)", classes.consec_print],
-  ["Sequential Sum (Imperative)", classes.seq_sum],
-  ["Palindrome Tester", classes.pali_tester],
+  ["Factorial", factorial.factorial_print],
+  ["Sequential Sum (OOP)", consec.consec_print],
+  ["Sequential Sum (Imperative)", seq.seq_sum],
+  ["Palindrome Tester", palindrome.pali_tester],
 ]
 
 # Menu banner is typically defined by menu owner
