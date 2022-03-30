@@ -1,6 +1,6 @@
 from tt0 import patterns, swap, tree
 from tt1 import loops, fibonacci, factorial
-from tt2 import palindrome, factorial, seq, consec
+from tt2 import palindrome, factorialC, seq, consec
 
     
 # menuy.py - function style menu
@@ -33,9 +33,13 @@ sub_menu1 = [
 ]
 
 sub_menu2 = [
-  ["Factorial", factorial.factorial_print],
+  ["Factorial OOP", factorialC.factorial_print],
+  ["Factorial", factorial.tester1],
   ["Sequential Sum (OOP)", consec.consec_print],
   ["Sequential Sum (Imperative)", seq.seq_sum],
+]
+
+sub_menu3 = [
   ["Palindrome Tester", palindrome.pali_tester],
 ]
 
@@ -61,6 +65,7 @@ def menu():
     menu_list.append(["Animations (TT0)", submenu0])
     menu_list.append(["Lists & Fibonacci (TT1)", submenu1])
     menu_list.append(["Math (TT2)", submenu2])
+    menu_list.append(["Palindrome", submenu3])
     buildMenu(title, menu_list)
 
 # def submenu
@@ -81,6 +86,10 @@ def submenu1():
 def submenu2():
     title = "TT2 Submenu" + banner
     buildMenu(title, sub_menu2)
+
+def submenu3():
+    title = "Palindrome Submenu" + banner
+    buildMenu(title, sub_menu3)
 
 def buildMenu(banner, options):
     # header for menu
