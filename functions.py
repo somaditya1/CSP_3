@@ -1,73 +1,6 @@
-ANSI_CLEAR_SCREEN = u"\u001B[2J"
-ANSI_HOME_CURSOR = u"\u001B[2;0H\u001B[2"
-SMILE_COLOR = u"\u001B[31m\u001B[2D"
-RESET_COLOR = u"\u001B[0m\u001B[2D"
-
+from tt0 import patterns, swap, tree
 from tt1 import loops
-from tt2 import classes
-import time
-
-def smile_print(position):
-    print(ANSI_HOME_CURSOR)
-    print(RESET_COLOR)
-    sp = " " * position
-    print(SMILE_COLOR, end="")
-    print(sp + "  ___  ")
-    print(sp + " /   \ ")
-    print(sp + "| ^ ^ |")
-    print(sp + " \ U / ")
-    print(sp + "  ‾‾‾  ")
-    print(sp + "       ")
-    print(RESET_COLOR)
-
-def smile():
-  start = 0
-  distance = 30 
-  step = 1
-
-  for position in range(start, distance, step):
-      smile_print(position)  
-      time.sleep(.1)
-
-def diamond():
-  sp1 = " " * 4
-  sp2 = " " * 2
-  print(sp1 + "↑" + sp1)
-  print(sp2 + "↑   ↑" + sp2)
-  print("←       →")
-  print(sp2 + "↓   ↓" + sp2)
-  print(sp1 + "↓" + sp1)
-
-
-def numberSwapper():
-  age1 = input('Enter 1st Number: ')
-  age2 = input('Enter 2nd Number: ')
-  temp = age1
-  age1 = age2
-  age2 = temp
-  print(age1, age2)
-
-def lessNumSwap():
-  age1 = input('Enter 1st Number: ')
-  age2 = input('Enter 2nd Number: ')
-  if age2 > age1:
-    print(age1, age2)
-  else:
-    print(age2, age1)
-
-def build_tree(height):
-  i = 1
-  while i <= height:
-    print(" " * (height - i) + "X " * i)
-    i = i + 1
-  print(" " * (height - 3) + "|   |\n" + " " * (height - 3) + "L...⅃")
-    
-
-def treefunc():
-  height = int(input("Enter height: "))
-  build_tree(height)
-
-
+from tt2 import classes, factorial
 
     
 # menuy.py - function style menu
@@ -84,13 +17,13 @@ main_menu = [
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 sub_menu = [
-    ["Swapping", numberSwapper],
-    ["Smaller # 1st", lessNumSwap],
+    ["Swapping", swap.numberSwapper],
+    ["Smaller # 1st", swap.lessNumSwap],
 ]
 
 sub_menu0 = [
-    ["Animation", smile],
-    ["Diamond", diamond],
+    ["Animation", patterns.smile],
+    ["Diamond", patterns.diamond],
 ]
 
 sub_menu1 = [
