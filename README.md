@@ -3,7 +3,7 @@
 # CSP 3 Home
 
 - [Link to REPL](https://replit.com/@somaditya1/csp_3)
-- [Link to GitHub Pages](https://somaditya1.github.io/csp_3/)
+- [Link to GitHub Pages](https://somaditya1.github.io/CSP_3/)
 - [Individual Repository](https://github.com/somaditya1/csp_3)
 
 
