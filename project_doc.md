@@ -1,6 +1,11 @@
 {% include navigation.html %}
 
 # Data Structures Project Documentation
+
+## Replit Embed
+
+{% include replit.html %}
+
 ## Code Snippets
   
 ### Tech Talk 0 - Code
@@ -391,6 +396,4 @@ def pali_tester():
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
 
 [Replit - Menus](https://replit.com/@somaditya1/TT0-Menus-2#main.py)
-#### Runtime Demo
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@somaditya1/DataStructures-2?embed=true">
 
