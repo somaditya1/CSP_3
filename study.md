@@ -1,4 +1,4 @@
-{% include navigation.html %)
+{% include navigation.html %}
 
 ## Test Prep Study
 ## 5.1 Notes
