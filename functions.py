@@ -1,6 +1,6 @@
 from tt0 import patterns, swap, tree
 from tt1 import loops, fibonacci, factorial
-from tt2 import palindrome, factorialC, seq, consec
+from tt2 import palindrome, factorialC, seq, consec, factors
 
     
 # menuy.py - function style menu
@@ -37,6 +37,7 @@ sub_menu2 = [
   ["Factorial", factorial.tester1],
   ["Sequential Sum (OOP)", consec.consec_print],
   ["Sequential Sum (Imperative)", seq.seq_sum],
+  ["Find Factors", factors.factors],
 ]
 
 sub_menu3 = [
