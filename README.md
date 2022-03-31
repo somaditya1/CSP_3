@@ -1,3 +1,3 @@
-{% includes navigation.html %}
+{% include navigation.html %}
 
 # CSP 3 Home
