@@ -3,8 +3,8 @@
 # Data Structures Project Documentation
 
 ## Replit Embed
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@somaditya1/CSP3#main.py?embed=true%22%3E</iframe>
 
-{% include replit.html %}
 
 ## Code Snippets
   
