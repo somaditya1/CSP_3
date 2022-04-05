@@ -2,8 +2,6 @@
 
 # Data Structures Project Documentation
 
-## Replit Embed
-<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@somaditya1/CSP3#main.py">
 
 
 ## Code Snippets
@@ -396,4 +394,7 @@ def pali_tester():
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
 
 [Replit - Menus](https://replit.com/@somaditya1/CSP3#main.py)
+
+## Replit Embed
+<iframe frameborder="0" width="100%" height="800px" src="https://replit.com/@somaditya1/CSP3#main.py">
 
