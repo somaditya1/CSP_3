@@ -9,6 +9,6 @@
 
 ## Time Box
 
-### Week 2 - [Review Ticket](https://github.com/JasonO12/jasonott-csp3/issues/2)
+### Week 2 - [Review Ticket](https://github.com/somaditya1/CSP_3/issues/2)
 
-### Week 1 - [Review Ticket](https://github.com/JasonO12/jasonott-csp3/issues/1)
+### Week 1 - [Review Ticket](https://github.com/somaditya1/CSP_3/issues/1)
