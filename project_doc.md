@@ -395,5 +395,5 @@ def pali_tester():
 
 [GitHub Repository](https://github.com/AkhilNandhakumar/Guython)
 
-[Replit - Menus](https://replit.com/@somaditya1/TT0-Menus-2#main.py)
+[Replit - Menus](https://replit.com/@somaditya1/CSP3#main.py)
 
