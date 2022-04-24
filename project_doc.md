@@ -387,6 +387,15 @@ def pali_tester():
   # pali = Palindrome()
   # pali("uhefgsrbkjehiebihqet")
   print('\u001b[31;1mNot Currently Working\u001b[37;1m')
+ 
+ #### Study Plan  
+ 
+- Review Binary on Monday
+- Rewatch first two chapters on CB videos Tueday
+- Visit key concepts from last TRI on GitHub Wiki on Wednesday
+- Review past MC quizzes and test to identify reoccurring mistakes on Thursday
+- I want to refine my write-ups for create task along with creating a better video after previous feedback on friday
+
   ```
                    
 ## Code / Runtime Links
