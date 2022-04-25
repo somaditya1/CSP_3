@@ -387,7 +387,7 @@ def pali_tester():
   # pali = Palindrome()
   # pali("uhefgsrbkjehiebihqet")
   print('\u001b[31;1mNot Currently Working\u001b[37;1m')
- 
+  ```
  #### Study Plan  
  
 - Review Binary on Monday
@@ -396,7 +396,74 @@ def pali_tester():
 - Review past MC quizzes and test to identify reoccurring mistakes on Thursday
 - I want to refine my write-ups for create task along with creating a better video after previous feedback on friday
 
-  ```
+ #### Quiz 1 Corrections
+ ![image](https://user-images.githubusercontent.com/89167149/165018606-aeea96fd-4ef8-4593-a5b6-05184524fdd4.png)
+###### Q7
+My Answer:B
+Correct Answer:C
+Reasoning: I became rusty at binary and did not review the proceces of translating in a long time, led to me making a mistake.
+###### Q11
+My Answer:A
+Correct Answer:C
+Reasoning: This was a very silly error as I had misread the question entirley
+###### Q12
+My Answer:C
+Correct Answer:A
+Reasoning: I failed to notice a crucial detail in the data provided as the infromation was stated previously 
+###### Q21
+My Answer:B
+Correct Answer:C
+Reasoning: The internet is a network not a data stream. I forgot the definiton for this one.
+###### Q23
+My Answer:D
+Correct Answer:A
+Reasoning: I forgot how intrusive website cookies really are 
+###### Q36
+My Answer:D
+Correct Answer:A
+Reasoning: I did not realize one of the attributes that was listed above would function the way it did
+###### Q37
+My Answer:D
+Correct Answer:C
+Reasoning: My logic was skewed though I may have clicked on the wrong one
+###### 41
+My Answer:B
+Correct Answer:C
+Reasoning: I was only looking at E if I looked at the destination I could have cut those off.
+###### Q46
+My Answer:A
+Correct Answer:D
+Reasoning: I forgot what a open protocal was. An open protocal is a protocal that is not bounded by any company.
+###### Q49
+My Answer:C
+Correct Answer:D
+Reasoning: I rushed for no reason, I became curious for what I got. Silly reading error
+###### Q50
+My Answer:D
+Correct Answer:C
+Reasoning: I rushed for no reason, I became curious for what I got. Silly reading error
+
+#### Quiz 2 Corrections
+###### Q18
+My Answer:D
+Correct:B
+Reasoning: I made the mistake is differnciating the exponent function and multilplication
+###### Q32
+My Answer:A
+Correct:C
+Reasoning: The nature of bits allows for them to hold more than each direction 
+###### Q35
+My Answer:D
+Correct:C
+Reasoning: The program can only hold a certain number of bits so mine was wrong
+###### Q36
+My Answer:D
+Correct:A
+Reasoning: I made the mistake is differnciating the exponent function and multilplication
+ 
+ 
+ ```
+  
                    
 ## Code / Runtime Links
 
