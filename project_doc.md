@@ -460,6 +460,25 @@ Reasoning: The program can only hold a certain number of bits so mine was wrong
 My Answer:D
 Correct:A
 Reasoning: I made the mistake is differnciating the exponent function and multilplication
+
+#### Quiz 3 Corrections
+###### Q28
+My Answer:D
+Correct:B
+Reasoning: I made the mistake is differnciating the exponent function and multilplication
+###### Q32
+My Answer:A
+Correct:C
+Reasoning: The nature of bits allows for them to hold more than each direction 
+###### Q37
+My Answer:D
+Correct:C
+Reasoning: The program can only hold a certain number of bits so mine was wrong
+###### Q39
+My Answer:D
+Correct:A
+Reasoning: I made the mistake is differnciating the exponent function and multilplication
+ 
  
  
  ```
