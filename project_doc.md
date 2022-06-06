@@ -1,7 +1,23 @@
 {% include navigation.html %}
 
 # Data Structures Project Documentation
+## Documentation of Individual Achievements
+During this trimester, I learned a significant amount of concepts in CSP. I learned about the process of using and implemeting logins and authorization, CRUD, Databases, linking puthong to jinji2 in the backend, and connecting it all with Javascript and HTML on the front end. My greatest acheivment this trimester was establishing the Calendar linked to the Database and login with the help of Jakub and Akhil in particular. The user is forced to login with the admin account to be able to create, read, update, and delete events on the calendar. This assures that only credible people or the people who intended to edit the calender can. The python and jinja checks which month is selected, and updated the events on the specific days so that each month can have unique events, using the same div elements. I also contributed with creating a more aestheticly pleasing sleek calnder that took infromation from the database. This kept the calender to correspond with custom css style sheet for our website so that the theme’s were the same. Another aspect of our project that I was a key contributer was in communicating with the other teams to add important viable timezones to our project as requested by our sponser. I think that I utilized my time quite well this trimester and was able to accomplish a lot of our sponsor’s desires.
 
+## What I learned:
+adding tables within a database for organizing data
+login and authorization/forcing account sign-in on certain pages
+how to make a custom stylesheet for github pages
+custom github pages theme
+Personal acco mplishments Tangibles:
+Calendar allowing for multiple events on one day
+Calendar Popup JS
+Custom GH Pages Style Sheet
+simple blueprint for crossover team contributions
+
+## Current Project Overview and Plans:
+
+The website focuses on providing students with helpful and educational resources to further their education. This includes several classes, including CSP. Our plan is to keep adding on to the tutoring features and services present in “Backpack Pro”. Alongside this we also plan on incorporating some ideas or features requested by our Project Owner, such as platform-wide SCSS for platforms such as GitHub wikis and the Nighthawk Coder Society website. This would allow future students to access and read TPT and TT information without having to jump across multiple platforms, which would make the learning experience easier and more seamless We are also thinking about adding or creating a study calendar / organizer for CSP students, which would allow to plan our their week or studying so that they don’t procrastinate or forget to do anything. 
 
 
 ## Code Snippets
